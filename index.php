@@ -20,6 +20,11 @@
               <h3>nazwa oferty</h3>
               <p>cena:100zł</p>           
                  </div>
+
+                 <?php 
+                 include "display_products.php"
+                 
+                 ?>
         </main>
 </body>
 </html>
