@@ -1,14 +1,5 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "lego";
-
-
-$conn = new mysqli("localhost", "root", "", "lego");
-if ($conn->connect_error) {
-    die("Połączenie nieudane: ". $conn->connect_error);
-}
+include "db_connection.php";
 
 $sql = "SELECT `name`, `price` FROM `product`";
 $result = $conn->query($sql);

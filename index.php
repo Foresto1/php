@@ -13,7 +13,10 @@
             <input type="text" name="search" id="search" placeholder="Wyszukaj Produkt">
             <input type="submit" value="szukaj">
         </form>
+        <div>
         <a href="png-clipart-shopping-cart-shopping-centre-icon-shopping-cart-text-retail-thumbnail.png" id="cart">koszyk</a>
+        <a href="login.html">Dodaj produkt</a>
+        </div>
         </header>
         <main class="flex-container-wrap">
             <div class="card">
